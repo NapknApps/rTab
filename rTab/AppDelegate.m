@@ -17,6 +17,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [[UINavigationBar appearance] setShadowImage:[UIImage new]];
+    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"orange.png"] forBarMetrics:UIBarMetricsDefault];
+    
+    
+    UIImage* toolbarImage = [UIImage imageNamed:@"orange.png"];
+    [[UIToolbar appearance]
+     setBackgroundImage: toolbarImage
+     forToolbarPosition: UIToolbarPositionAny
+     barMetrics: UIBarMetricsDefault];
+
+
     return YES;
 }
 

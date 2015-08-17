@@ -14,6 +14,18 @@
 		D3482CC61B79AB2A007C50EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3482CC51B79AB2A007C50EF /* Images.xcassets */; };
 		D3482CC91B79AB2A007C50EF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3482CC71B79AB2A007C50EF /* LaunchScreen.xib */; };
 		D3482CD51B79AB2A007C50EF /* rTabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3482CD41B79AB2A007C50EF /* rTabTests.m */; };
+		D3BA39681B7E6AD00027A6BA /* PersonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BA39671B7E6AD00027A6BA /* PersonTableViewCell.m */; };
+		D3BA396B1B7E6ADC0027A6BA /* ExpenseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BA396A1B7E6ADC0027A6BA /* ExpenseTableViewCell.m */; };
+		D3BA396E1B7E6C340027A6BA /* DefaultsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BA396D1B7E6C340027A6BA /* DefaultsHelper.m */; };
+		D3BA39701B7E753F0027A6BA /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3BA396F1B7E753F0027A6BA /* AddressBook.framework */; };
+		D3BA39721B7E75460027A6BA /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3BA39711B7E75460027A6BA /* AddressBookUI.framework */; };
+		D3BA39751B80F1800027A6BA /* TSCurrencyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BA39741B80F1800027A6BA /* TSCurrencyTextField.m */; };
+		D3BA39781B80F5100027A6BA /* ExpenseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BA39771B80F5100027A6BA /* ExpenseViewController.m */; };
+		D3BA39861B81962E0027A6BA /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3BA39851B81962E0027A6BA /* MessageUI.framework */; };
+		D3BA39881B81A12B0027A6BA /* orange.png in Resources */ = {isa = PBXBuildFile; fileRef = D3BA39871B81A12B0027A6BA /* orange.png */; };
+		D3D7B8631B7E647F0038E956 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D7B8621B7E647F0038E956 /* Person.m */; };
+		D3D7B8661B7E64A70038E956 /* Debt.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D7B8651B7E64A70038E956 /* Debt.m */; };
+		D3D7B8691B7E64B00038E956 /* Expense.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D7B8681B7E64B00038E956 /* Expense.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +52,26 @@
 		D3482CCE1B79AB2A007C50EF /* rTabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rTabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3482CD31B79AB2A007C50EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3482CD41B79AB2A007C50EF /* rTabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rTabTests.m; sourceTree = "<group>"; };
+		D3BA39661B7E6AD00027A6BA /* PersonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonTableViewCell.h; sourceTree = "<group>"; };
+		D3BA39671B7E6AD00027A6BA /* PersonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonTableViewCell.m; sourceTree = "<group>"; };
+		D3BA39691B7E6ADC0027A6BA /* ExpenseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpenseTableViewCell.h; sourceTree = "<group>"; };
+		D3BA396A1B7E6ADC0027A6BA /* ExpenseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpenseTableViewCell.m; sourceTree = "<group>"; };
+		D3BA396C1B7E6C340027A6BA /* DefaultsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultsHelper.h; sourceTree = "<group>"; };
+		D3BA396D1B7E6C340027A6BA /* DefaultsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultsHelper.m; sourceTree = "<group>"; };
+		D3BA396F1B7E753F0027A6BA /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		D3BA39711B7E75460027A6BA /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		D3BA39731B80F1800027A6BA /* TSCurrencyTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSCurrencyTextField.h; sourceTree = "<group>"; };
+		D3BA39741B80F1800027A6BA /* TSCurrencyTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSCurrencyTextField.m; sourceTree = "<group>"; };
+		D3BA39761B80F5100027A6BA /* ExpenseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpenseViewController.h; sourceTree = "<group>"; };
+		D3BA39771B80F5100027A6BA /* ExpenseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpenseViewController.m; sourceTree = "<group>"; };
+		D3BA39851B81962E0027A6BA /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		D3BA39871B81A12B0027A6BA /* orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange.png; sourceTree = "<group>"; };
+		D3D7B8611B7E647F0038E956 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		D3D7B8621B7E647F0038E956 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		D3D7B8641B7E64A70038E956 /* Debt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Debt.h; sourceTree = "<group>"; };
+		D3D7B8651B7E64A70038E956 /* Debt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Debt.m; sourceTree = "<group>"; };
+		D3D7B8671B7E64B00038E956 /* Expense.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Expense.h; sourceTree = "<group>"; };
+		D3D7B8681B7E64B00038E956 /* Expense.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Expense.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +79,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3BA39861B81962E0027A6BA /* MessageUI.framework in Frameworks */,
+				D3BA39721B7E75460027A6BA /* AddressBookUI.framework in Frameworks */,
+				D3BA39701B7E753F0027A6BA /* AddressBook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +98,9 @@
 		D3482CAC1B79AB2A007C50EF = {
 			isa = PBXGroup;
 			children = (
+				D3BA39851B81962E0027A6BA /* MessageUI.framework */,
+				D3BA39711B7E75460027A6BA /* AddressBookUI.framework */,
+				D3BA396F1B7E753F0027A6BA /* AddressBook.framework */,
 				D3482CB71B79AB2A007C50EF /* rTab */,
 				D3482CD11B79AB2A007C50EF /* rTabTests */,
 				D3482CB61B79AB2A007C50EF /* Products */,
@@ -85,7 +123,24 @@
 				D3482CBD1B79AB2A007C50EF /* AppDelegate.m */,
 				D3482CBF1B79AB2A007C50EF /* ViewController.h */,
 				D3482CC01B79AB2A007C50EF /* ViewController.m */,
+				D3D7B8611B7E647F0038E956 /* Person.h */,
+				D3D7B8621B7E647F0038E956 /* Person.m */,
+				D3D7B8641B7E64A70038E956 /* Debt.h */,
+				D3D7B8651B7E64A70038E956 /* Debt.m */,
+				D3D7B8671B7E64B00038E956 /* Expense.h */,
+				D3D7B8681B7E64B00038E956 /* Expense.m */,
+				D3BA396C1B7E6C340027A6BA /* DefaultsHelper.h */,
+				D3BA396D1B7E6C340027A6BA /* DefaultsHelper.m */,
 				D3482CC21B79AB2A007C50EF /* Main.storyboard */,
+				D3BA39871B81A12B0027A6BA /* orange.png */,
+				D3BA39761B80F5100027A6BA /* ExpenseViewController.h */,
+				D3BA39771B80F5100027A6BA /* ExpenseViewController.m */,
+				D3BA39661B7E6AD00027A6BA /* PersonTableViewCell.h */,
+				D3BA39671B7E6AD00027A6BA /* PersonTableViewCell.m */,
+				D3BA39691B7E6ADC0027A6BA /* ExpenseTableViewCell.h */,
+				D3BA396A1B7E6ADC0027A6BA /* ExpenseTableViewCell.m */,
+				D3BA39731B80F1800027A6BA /* TSCurrencyTextField.h */,
+				D3BA39741B80F1800027A6BA /* TSCurrencyTextField.m */,
 				D3482CC51B79AB2A007C50EF /* Images.xcassets */,
 				D3482CC71B79AB2A007C50EF /* LaunchScreen.xib */,
 				D3482CB81B79AB2A007C50EF /* Supporting Files */,
@@ -168,6 +223,7 @@
 				TargetAttributes = {
 					D3482CB41B79AB2A007C50EF = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = SWECN289V2;
 					};
 					D3482CCD1B79AB2A007C50EF = {
 						CreatedOnToolsVersion = 6.4;
@@ -200,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3482CC41B79AB2A007C50EF /* Main.storyboard in Resources */,
+				D3BA39881B81A12B0027A6BA /* orange.png in Resources */,
 				D3482CC91B79AB2A007C50EF /* LaunchScreen.xib in Resources */,
 				D3482CC61B79AB2A007C50EF /* Images.xcassets in Resources */,
 			);
@@ -219,8 +276,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3D7B8661B7E64A70038E956 /* Debt.m in Sources */,
 				D3482CC11B79AB2A007C50EF /* ViewController.m in Sources */,
+				D3BA39781B80F5100027A6BA /* ExpenseViewController.m in Sources */,
+				D3D7B8691B7E64B00038E956 /* Expense.m in Sources */,
+				D3BA39751B80F1800027A6BA /* TSCurrencyTextField.m in Sources */,
+				D3BA39681B7E6AD00027A6BA /* PersonTableViewCell.m in Sources */,
+				D3BA396B1B7E6ADC0027A6BA /* ExpenseTableViewCell.m in Sources */,
+				D3BA396E1B7E6C340027A6BA /* DefaultsHelper.m in Sources */,
 				D3482CBE1B79AB2A007C50EF /* AppDelegate.m in Sources */,
+				D3D7B8631B7E647F0038E956 /* Person.m in Sources */,
 				D3482CBB1B79AB2A007C50EF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,9 +412,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Napkn, Ltd. Co. (SWECN289V2)";
 				INFOPLIST_FILE = rTab/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "31b5ffbe-db28-483b-97d7-8c29fd02535d";
 			};
 			name = Debug;
 		};
@@ -357,9 +424,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Napkn, Ltd. Co. (SWECN289V2)";
 				INFOPLIST_FILE = rTab/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "31b5ffbe-db28-483b-97d7-8c29fd02535d";
 			};
 			name = Release;
 		};
@@ -416,6 +485,7 @@
 				D3482CDA1B79AB2A007C50EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3482CDB1B79AB2A007C50EF /* Build configuration list for PBXNativeTarget "rTabTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +494,7 @@
 				D3482CDD1B79AB2A007C50EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
